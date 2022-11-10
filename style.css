@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo {
+    height: 70px;
+}
+.nav-item {
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-item { 
+    padding: 15px;
+}
