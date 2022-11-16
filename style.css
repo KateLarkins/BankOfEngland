@@ -24,3 +24,13 @@ body {
 #Copyright {
     font-size: 13px;
 }
+.card-title {
+    font-size: 50px;
+    text-align: center;
+}
+#team-img {
+    height: 200px;
+}
+.team {
+    background-color: red;
+}
