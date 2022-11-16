@@ -17,6 +17,7 @@ body {
 #house{
     padding: 0%;
 }
+
 .card {
     background-color: #242C64;
     color: white;
@@ -26,7 +27,7 @@ body {
 }
 .card-title {
     font-size: 50px;
-    text-align: center;
+    text-align:center;
 }
 #team-img {
     height: 200px;
