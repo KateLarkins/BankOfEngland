@@ -1,5 +1,6 @@
+
+
 body {
-    font-family: 'Roboto Condensed', sans-serif;
     background-color: #EEEEEE;
 }
 
@@ -8,19 +9,20 @@ body {
 }
 .nav-item {
     font-size: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 .nav-item { 
-    padding: 15px;
+    padding: 7px;
+    font-family: 'Libre Baskerville', serif;
 }
 #house{
     padding: 0%;
 }
 
 .card {
-    background-color: #242C64;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #Copyright {
     font-size: 13px;
@@ -28,10 +30,24 @@ body {
 .card-title {
     font-size: 50px;
     text-align:center;
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+}
+.lowertext {
+    position:relative;
+    padding-top:300px;
+    padding-right:500px;
+    padding-left:500px;
 }
 #team-img {
     height: 200px;
 }
 .team {
     background-color: red;
+}
+.btn:hover {
+    background-color:#242C64;
+}
+h5 {
+    font-family: 'Libre Baskerville', serif;
 }
