@@ -24,9 +24,10 @@ body {
     background-color: white;
     color: black;
 }
-#Copyright {
-    font-size: 13px;
+.card-img {
+    opacity: .7;
 }
+
 .card-title {
     font-size: 50px;
     text-align:center;
@@ -51,3 +52,270 @@ body {
 h5 {
     font-family: 'Libre Baskerville', serif;
 }
+  
+  ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0px;
+    margin: 0;
+  }
+
+.wrap {
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttonone {
+min-width: 300px;
+min-height: 60px;
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+text-transform: uppercase;
+letter-spacing: 1.3px;
+font-weight: 700;
+color: white;
+background: #242C64;
+background: linear-gradient(90deg, #242C64 0%, #242C64 100%);
+border: none;
+border-radius: 1000px;
+box-shadow: 12px 12px 24px #242C64;
+transition: all 0.3s ease-in-out 0s;
+cursor: pointer;
+outline: none;
+position: relative;
+padding: 10px;
+z-index: 2;
+}
+
+.buttonone::before {
+content: '';
+border-radius: 1000px;
+min-width: calc(300px + 12px);
+min-height: calc(60px + 12px);
+border: 6px solid #242C64;
+box-shadow: 0 0 60px #242C64;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: all .3s ease-in-out 0s;
+z-index: 2;
+}
+
+.buttonone:hover, .button:focus {
+color: white;
+transform: translateY(-6px);
+}
+
+.buttonone:hover::before, button:focus::before {
+opacity: 1;
+}
+
+.buttonone::after {
+content: '';
+width: 30px; height: 30px;
+border-radius: 100%;
+border: 6px solid #242C64;
+position: absolute;
+z-index: -1;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+animation: ring 1.5s infinite;
+}
+
+.buttonone:hover::after, button:focus::after {
+animation: none;
+display: none;
+
+}
+
+@keyframes ring {
+0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+100% {
+    width: 170px;
+    height: 170px;
+    opacity: 0;
+}
+}
+
+
+section#contact {
+    background-color: #EEEEEE;
+    background-image: url("../assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section#contact .section-heading {
+    color: #fff;
+  }
+  section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  section#contact form#contactForm .form-group input,
+  section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+  }
+  section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+  }
+  section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+  }
+  section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+  }
+  section#contact form#contactForm p.help-block {
+    margin: 0;
+  }
+  section#contact form#contactForm .form-control:focus {
+    border-color: #ffc800;
+    box-shadow: none;
+  }
+  section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  
+  .bi-house-door-fill {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+  .bi-shop {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+  .bi-person-check-fill {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+
+  .dot {
+    height: 150px;
+    width: 150px;
+    background-color: #242C64;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+
+
+ .buttontwo {
+   width: 390px;
+   height: 70px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: "Josefin Sans", sans-serif;
+   background-color: #242C64;
+   cursor: pointer;
+   box-shadow: 5px 5px 0 0;
+   transition: 0.3s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 30px;
+ }
+ .buttontwo a {
+   position: absolute;
+   text-decoration: none;
+   color: white;
+   z-index: 1000;
+ }
+ .buttontwo::after {
+   content: "";
+   top: 0;
+   left: 0;
+   width: 390px;
+   height: 70px;
+   background-color: #242C64;
+   background: linear-gradient(to right, #242C64, white);
+   opacity: 0;
+   transition: 0.3s;
+ }
+ .buttontwo:hover {
+   box-shadow: -5px -5px 0 0;
+   transform: scale(0.9);
+ }
+
+.buttontwo:hover::after {
+  opacity: 1;
+}
+
+
+
+  .icon-box {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+  
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .icon-box .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .icon-box .title a {
+    color: #124265;
+    transition: 0.3s;
+  }
+  
+  .icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  .icon-box .icon {
+    margin-bottom: 10px;
+    padding-top: 0px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    line-height: 1;
+    color: #2487ce;
+  }
+  
+  .icon-box:hover {
+    transform: scale(1.08);
+    color: #2487ce;
+  }
+  

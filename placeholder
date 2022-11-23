@@ -51,3 +51,186 @@
               <p>
                 First time home buyers sometimes feel they are facing a daunting, difficult task. Actually, both mortgage lenders and the U.S. government are willing to give you all the help you need to make your dream of home ownership a reality. Use the Internet, visiting helpful websites like boemortgage.com, to find mortgage programs that fit your budget, lifestyle, and future plans. If you follow the ten tips noted above, are realistic about the price of homes you consider, have your income and debt documentation ready, and learn how to complete a mortgage application properly, you stand an excellent chance of buying your first home with a mortgage loan you can comfortably live in and enjoy.
               </p>
+
+
+
+
+
+
+
+from footer:
+
+                          <ul>
+              <li class="mb-3">Privacy Policy</li>
+              <li class="mb-3">CCPA Notice</li>
+              <li class="mb-3">Website Analytics Policy</li>
+              <li class="mb-3">Data Security Preventing Identity Theft</li>
+              <li class="mb-3">USA Patriot Act</li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul>
+              <li class="mb-3">Need Credit Counseling?</li>
+              <li class="mb-3">Site Map</li>
+              <li class="mb-3">Mortgage Shopping Toolkit</li>
+              <li class="mb-3">Home Loan Kit</li>
+            </ul>
+
+
+ <!-- Button trigger modal to location-->
+    <div class="row">
+      <div class="col-md-5">
+        <br>
+      </div>
+      <div class="col-md-2">
+        <div class="buttontwo" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a href="#">Visit Us</a>
+      <div>
+      </div>
+      <div class="col-md-4">
+        <br>
+      </div>
+    </div>
+
+        <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Visit Us</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  96 W University Pkwy b Jackson, TN 38305
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bank of England</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #242C64;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-logo">
+                <a class="nav-link" href="https://www.boemidsouth.com/"><img id="logo" src="img/Screen Shot 2022-11-09 at 11.28.15 AM.png"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Bank of England</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="our-team.html">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="loan-programs.html">Loan Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="loan-tools.html">Loan Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="other-location.html">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="card text-bg-light" id="house">
+        <img src="img/Screen Shot 2022-11-17 at 12.23.47 PM.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="card-title lowertext">placeholder</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title" style="color:black; font-weight:bold; font-size: 35px">Who is the Bank of England?</h5>
+              <p class="card-text">
+                <p>
+                  Our management team has a combined 150 years of mortgage experience and is actively involved as members and board members on local, state and national mortgage broker and banker associations. 
+                  Our success is due primarily to the talent of our people and access to hundreds of mortgage products at our industry's best pricing.
+                  </p>
+                <p>We understand you're making a commitment in buying a new home, refinancing or cashing out the equity in your home. 
+                  You can be certain that we will do our utmost to answer all of your questions so you can be confident that you have the best rate to fit your personal needs. 
+                  Our mortgage professionals are standing by ready to give you the personal attention you deserve and treat you with the respect due a valued customer.
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+ <!-- Services-->
+ <section class="page-section">
+  <div class="container">
+      <div class="text-center">
+          <br>
+          <h3 class="section-subheading text-muted"></h3>
+      </div>
+      <div class="row text-center">
+          <div class="col-md-4 icon-box">
+              <span class="fa-stack fa-4x">
+                <span class="dot">                
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                </svg>
+              </span>
+
+              <h4 class="my-3">Mortgage Experts</h4>
+              <p class="text-muted">Our success is due to the talent of our people and our industry's best pricing.</p>
+          </div>
+          <div class="col-md-4 icon-box">
+              <span class="fa-stack fa-4x">
+                <span class="dot">                
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                </svg>
+              </span>
+              <h4 class="my-3">Avaliable products</h4>
+              <p class="text-muted">We offer one of the most comprehensive selections of mortgage and refinance options on the market.</p>
+          </div>
+          <div class="col-md-4 icon-box"">
+              <span class="fa-stack fa-4x">
+                <span class="dot">                
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                </svg>
+              </span>
+              <h4 class="my-3">Small town Service</h4>
+              <p class="text-muted">We've been serving Jackson customers since __________.</p>
+          </div>
+      </div>
+  </div>
