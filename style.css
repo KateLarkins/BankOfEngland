@@ -24,9 +24,6 @@ body {
     background-color: white;
     color: black;
 }
-.card-img {
-    opacity: .7;
-}
 
 .card-title {
     font-size: 50px;
@@ -319,3 +316,43 @@ section#contact {
     color: #2487ce;
   }
   
+
+.card-img-top {
+  width: 1200px;
+  height: 500px;
+}
+
+.cardhouse {
+  flex-direction: row;
+  align-items: center;
+}
+.cardhouse-title {
+  font-weight: bold;
+}
+.cardhouse img {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .cardhouse-body {
+    padding: 0.5em 1.2em;
+  }
+  .cardhouse-body .cardhouse-text {
+    margin: 0;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  .cardhouse img {
+    width: 40%;
+  }
+}
+
+.buttonthree {
+  background-color:white;
+  color:#242C64;
+}
