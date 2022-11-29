@@ -29,13 +29,13 @@
                 <a class="nav-link" href="our-team.html">Our Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="loan-programs.html">Loan Programs</a>
+                <a class="nav-link" href="loan-programs.html">Loan Programs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="loan-tools.html">Loan Tools</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="other-location.html">Locations</a>
+                <a class="nav-link active" href="other-location.html">Locations</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -44,43 +44,6 @@
           </div>
         </div>
       </nav>
-
-      <div class="card text-bg-light" id="house">
-        <img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h1 class="card-title">Loan Programs</h1>
-        </div>
-      </div>
-
-     <div class="container-fluid">
-      <div class="row">
-        <div class="row pt-2">
-          <div class="card">
-            <h5 class="card-header">Preventing Identity Theft</h5>
-            <div class="card-body">
-              <p class="card-text">
-                With supporting text below as a natural lead-in to additional content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
-
-     <div class="container-fluid">
-      <div class="row">
-        <div class="row pt-2">
-          <div class="card">
-            <h5 class="card-header">Preventing Identity Theft</h5>
-            <div class="card-body">
-              <p class="card-text">
-                With supporting text below as a natural lead-in to additional content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
 
 
       
