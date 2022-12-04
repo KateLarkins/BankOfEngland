@@ -21,7 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-logo">
-                <a class="nav-link" href="https://www.boemidsouth.com/"><img id="logo" src="img/logo2.png"></a>
+                <a class="nav-link" href="https://dev4.dntmedia.net/#locations"><img id="logo" src="img/logo2.png"></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Bank of England</a>
@@ -126,7 +126,7 @@
         <div class="col-md-4"></div>
         <div class="col-md-4">
           <div class="wrap">
-            <button class="buttonone">Email Us</button>
+            <a href="https://dev4.dntmedia.net/pages/resources/contact.php"><button class="buttonone">Email Us</button></a>
           </div>
         </div>
         <div class="col-md-4"></div>
@@ -135,7 +135,7 @@
 
 
 
-    <div class="card cardhouse" style="width: 90rem;">
+    <div class="card cardhouse">
       <img src="img/House.png" class="cardhouse-img-top" alt="...">
         <div class="cardhouse-body" style="background-color:#242C64; color:white; text-align: center;">
           <p class="cardhouse-text">
@@ -155,7 +155,7 @@
             We understand you're making a commitment in buying a new home, refinancing or cashing out the equity in your home. 
             You can be certain that we will do our utmost to answer all of your questions so you can be confident that you have the best rate to fit your personal needs. 
           </p>
-          <a href="#" class="btn buttonthree">Learn more</a>
+          <a href="our-team.html" class="btn buttonthree">Learn more</a>
           <br>
           <br>
           <br>
@@ -222,34 +222,38 @@
     <br>
     
     <!-- Button trigger modal to location-->
+    <div class="container">
     <div class="row">
       <div class="col-md-4"></div>
       <div class="col-md-4">
         <div class="buttontwo" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          <a href="#">Visit Us</a>
+          <a href="other-location.html">Visit Us</a>
         </div>
       </div>
-      <div class="col-md-4"></div>
-    </div> 
-    <br>
-
-    <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Visit Us</h5>
-              <button type="button" class="btn-closen" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              96 W University Pkwy b Jackson, TN 38305
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <div class="col-md-4">
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Visit Us</h5>
+                <button type="button" class="btn-closen" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                96 W University Pkwy b Jackson, TN 38305
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    </div> 
+    <br>
+
+  
 
 
         <!-- Remove the container if you want to extend the Footer to full width. -->
@@ -272,19 +276,15 @@
 
             <div class="mt-4">
               <!-- Facebook -->
-              <a type="button" class="btn btn-floating btn-light btn-lg">
+              <a type="button" class="btn>
                 <i class="fab fa-facebook-f">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <!-- <a href=""> inactive facebook link for now -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" class="bi bi-facebook" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                   </svg>
-                </i></a>
-              <!-- Dribbble -->
-              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
-              <!-- Twitter -->
-              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
-              <!-- Google + -->
-              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
-              <!-- Linkedin -->
+                </i>
+              </a>
+                <!-- <p style="padding-left: 10px;"><a href="contact-us.html">Learn more</a></p> -->
             </div>
           </div>
           <!--Grid column-->
@@ -319,6 +319,16 @@
                 </span>
                 <span class="ms-2">(731) 394-2864</span>
               </p>
+              <p class="mb-3">
+                <span class="fa-li">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg>                  
+                </span>
+                <span class="ms-2">Opening Hours- 8AM-5PM Mon-Fri </span>
+              </p>
+
             </ul>
 
           </div>
@@ -326,21 +336,24 @@
 
           <!--Grid column-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-4">Opening hours</h5>
+            <h5 class="text-uppercase mb-4">Legal Information</h5>
 
             <table class="table text-center text-black">
               <tbody class="fw-normal">
                 <tr>
-                  <td>Mon - Thu:</td>
-                  <td>8am - 9pm</td>
+                  <td><a href="https://www.boeassets.com/marketing/privacy-policy.pdf"> Privacy Policy</a></td>
+                  <td><a href="https://www.boeassets.com/marketing/CCPA.pdf">CCPA Policy</a></td>
                 </tr>
                 <tr>
-                  <td>Fri - Sat:</td>
-                  <td>8am - 1am</td>
+                  <td><a href="https://dev4.dntmedia.net/pages/disclaimer/analytics.php">Website Analytics Policy</a></td>
+                  <td><a href="https://dev4.dntmedia.net/pages/disclaimer/security.php">Security</a></td>
                 </tr>
                 <tr>
-                  <td>Sunday:</td>
-                  <td>9am - 10pm</td>
+                  <td><a href="https://dev4.dntmedia.net/pages/disclaimer/identity.php">Preventing Identity Theft</a></td>
+                  <td><a href="https://dev4.dntmedia.net/pages/disclaimer/patriot.php">USA Patriot Act</a></td> 
+                </tr>
+                <tr>
+                  <td><a href="https://dev4.dntmedia.net/pages/disclaimer/credit.php">Credit Counseling</a></td>
                 </tr>
               </tbody>
             </table>
@@ -352,27 +365,20 @@
       <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item-one">
-        <h2 class="accordion-header" id="headingOne">
-          <ul>
-            <li>
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0);">
-            Copyright © 2015-2022 Bank of England Mortgage. All rights reserved.
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body" style="background-color:#242C64; color:white; font-weight: lighter;">
-            <strong> Bank of England Mortgage is an Equal Housing Lender Bank of England Mortgage has tried to provide accurate and timely information; however, the content of this site may not be accurate, complete or current and may include technical inaccuracies or typographical errors. From time to time changes may be made to the content of this site without notice. Bank of England Mortgage may change the products, services, and any other information described on this site at any time. The information published on this site is provided as a convenience to visitors and is for informational purposes only. You should verify all information before relying on it and decisions based on information contained in our site are your sole responsibility. If you are an individual with disabilities who needs accommodation, or you are having difficulty using our website to apply for a loan, please contact us at (901) 610-3171. This contact information is for accommodation requests only.
 
-              Bank of England Mortgage is a division of Bank of England. NMLS 418481. Member FDIC.</strong>
-            </li>
+          <div class="row">
+            <div style="background-color:#242C64; color:white; font-weight: lighter; padding-left: 50px; padding-right: 50px;" class="col-md-12">
+            <h6>
+              <br>
+              <ul>
+                <li class="linkcolorwhite" style="font-family: 'Libre Baskerville', serif;"><a href="copyright.html">
+                Copyright © 2015-2022 Bank of England Mortgage. All rights reserved.
+              </li></a>
+            </h6>
           </div>
         </div>
-      </div>
-    </div>
   </footer>
 <!-- End of .container -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" class=".copyright"></script>
   </body>
 </html>
