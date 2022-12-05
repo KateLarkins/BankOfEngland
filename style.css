@@ -402,3 +402,10 @@ nav-item a {
 .team {
   color: black
 }
+
+.imgcopy { 
+  display: block;
+  position: relative;
+  right: 50%;
+  left: 50%;
+}
