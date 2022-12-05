@@ -11,13 +11,14 @@ body {
 .nav-item {
     font-size: 20px;
     padding: 7px;
-    font-family: 'Libre Baskerville', serif;
 }
 a.nav-link{
   /* margin: auto; */
 }
 
-
+h4 { 
+  font-family: 'Libre Baskerville', serif;
+}
 
 
 #house{
@@ -30,10 +31,9 @@ a.nav-link{
 }
 
 .card-title {
-    font-size: 50px;
-    text-align:center;
-    font-family: 'Libre Baskerville', serif;
-    color:white;
+  font-size: 50px;
+  text-align:center;
+  font-family: 'Libre Baskerville', serif;
 }
 .lowertext {
     position:relative;
@@ -41,12 +41,7 @@ a.nav-link{
     padding-right:500px;
     padding-left:500px;
 }
-#team-img {
-    height: 200px;
-}
-.team {
-    background-color: red;
-}
+
 
 .btn:hover {
     background-color:#242C64;
@@ -112,9 +107,6 @@ ul {
   transform: translateY(-6px);
 }
 
-  .buttonone:hover::before, .buttonone:focus::before {
-  opacity: 1;
-}
 
 .buttonone::after {
   content: '';
@@ -227,7 +219,7 @@ ul {
    height: 70px;
    font-weight: bold;
    font-size: 20px;
-   font-family: "Josefin Sans", sans-serif;
+
    background-color: #242C64;
    cursor: pointer;
    box-shadow: 5px 5px 0 0;
@@ -270,7 +262,7 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
     align-items: center;
-  
+    font-family: 'Libre Baskerville', serif;
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -376,19 +368,31 @@ body, html {
 .bi-facebook {
   fill: #242C64;
 }
-a {
+nav-item a {
   color: #0060B6;
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
+
+
 
 .linkcolorwhite a {
   color: white;
   text-decoration: none;
 }
-.linkcolorwhite a:hover::after {
-  color: #2487ce;
+
+.textcolorblack a {
+  color: black;
+  text-decoration: none;
 }
 
-  .copyright a:hover::after {
-    color: #2487ce;
+
+
+
+
+#team {
+  color: black;
+}
+.team {
+  color: black
 }
