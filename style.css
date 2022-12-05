@@ -381,12 +381,18 @@ nav-item a {
   text-decoration: none;
 }
 
+.linkcolorwhite a:hover { 
+   color: #2487ce;
+}
+
 .textcolorblack a {
   color: black;
   text-decoration: none;
 }
 
-
+.textcolorblack a:hover { 
+  color: #2487ce;
+}
 
 
 
