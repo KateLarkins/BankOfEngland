@@ -5,19 +5,14 @@ body {
 #logo {
     height: 70px;
 }
-.nav{
-  /* align-items: center; */
-}
+
 .nav-item {
     font-size: 20px;
     padding: 7px;
 }
-a.nav-link{
-  /* margin: auto; */
-}
 
 h4 { 
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -33,7 +28,7 @@ h4 {
 .card-title {
   font-size: 50px;
   text-align:center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
 }
 .lowertext {
     position:relative;
@@ -48,7 +43,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
 }
   
 ul {
@@ -84,6 +79,7 @@ ul {
   position: relative;
   padding: 10px;
   z-index: 2;
+  font-family: 'Oswald', sans-serif;
 }
 
 .buttonone::before {
@@ -135,7 +131,6 @@ ul {
 100% {
     width: 170px;
     height: 170px;
-    opacity: 0;
 }
 }
 
@@ -219,7 +214,7 @@ ul {
    height: 70px;
    font-weight: bold;
    font-size: 20px;
-
+   font-family: 'Oswald', sans-serif;
    background-color: #242C64;
    cursor: pointer;
    box-shadow: 5px 5px 0 0;
@@ -250,11 +245,6 @@ ul {
    transform: scale(0.9);
  }
 
-.buttontwo:hover::after {
-  opacity: 1;
-}
-
-
 
   .icon-box {
     padding-left: 50px;
@@ -262,7 +252,7 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
     align-items: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -323,7 +313,7 @@ ul {
 .buttonthree {
   background-color:white;
   color:#242C64;
-  height: 50px;
+  height: 60px;
   width: 200px;
 }
 
@@ -371,7 +361,6 @@ body, html {
 nav-item a {
   color: #0060B6;
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 
@@ -406,6 +395,6 @@ nav-item a {
 .imgcopy { 
   display: block;
   position: relative;
-  right: 50%;
-  left: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
