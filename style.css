@@ -33,6 +33,9 @@ h4 {
 }
 .card-text {
   font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
 }
 .lowertext {
     position:relative;
@@ -417,4 +420,7 @@ footer ul {
   font-family: 'Open Sans', sans-serif;
   padding-left: 100px;
   padding-right:100px;
+}
+.carouseltag {
+  color: white;
 }
