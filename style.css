@@ -31,6 +31,16 @@ h4 {
   text-align:center;
   font-family: 'Oswald', sans-serif;
 }
+.card-text {
+  font-size: 20px;
+}
+.lowertext {
+    position:relative;
+    padding-top:300px;
+    padding-right:500px;
+    padding-left:500px;
+}
+
 
 .btn:hover {
     background-color:#242C64;
@@ -38,13 +48,6 @@ h4 {
 
 h5 {
   font-family: 'Oswald', sans-serif;
-}
-  
-ul {
-  list-style: none;
-  perspective: 900;
-  padding: 0px;
-  margin: 0;
 }
 
 .wrap {
@@ -381,11 +384,24 @@ body, html {
   color: black
 }
 
-.imgcopy { 
-  display: block;
-  position: relative;
-  padding-left: 50px;
-  padding-right: 50px;
+h1, h2{
+  color: #242C64;
+  font-weight: bold;
+}
+.content-box {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+footer ul {
+  list-style: none;
+}
+.navbar ul {
+  list-style: none;
 }
 .carousel-item {
   font-family: 'Oswald', sans-serif;
