@@ -30,6 +30,9 @@ h4 {
   text-align:center;
   font-family: 'Oswald', sans-serif;
 }
+.card-text {
+  font-size: 20px;
+}
 .lowertext {
     position:relative;
     padding-top:300px;
@@ -392,9 +395,7 @@ nav-item a {
   color: black
 }
 
-.imgcopy { 
-  display: block;
-  position: relative;
-  padding-left: 50px;
-  padding-right: 50px;
+h1, h2{
+  color: #242C64;
+  font-weight: bold;
 }
