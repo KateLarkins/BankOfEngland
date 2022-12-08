@@ -9,6 +9,7 @@ body {
 .nav-item {
     font-size: 20px;
     padding: 7px;
+    font-family: 'Oswald', sans-serif;
 }
 
 h4 { 
@@ -30,13 +31,6 @@ h4 {
   text-align:center;
   font-family: 'Oswald', sans-serif;
 }
-.lowertext {
-    position:relative;
-    padding-top:300px;
-    padding-right:500px;
-    padding-left:500px;
-}
-
 
 .btn:hover {
     background-color:#242C64;
@@ -358,11 +352,6 @@ body, html {
 .bi-facebook {
   fill: #242C64;
 }
-nav-item a {
-  color: #0060B6;
-  text-decoration: none;
-}
-
 
 
 .linkcolorwhite a {
@@ -397,4 +386,19 @@ nav-item a {
   position: relative;
   padding-left: 50px;
   padding-right: 50px;
+}
+.carousel-item {
+  font-family: 'Oswald', sans-serif;
+}
+
+#cardindex {
+  font-family:'Oswald', sans-serif; 
+  font-size:55px;
+}
+
+#cardinfo {
+  font-size:30px; 
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 100px;
+  padding-right:100px;
 }
