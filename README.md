@@ -8,7 +8,7 @@ Let's introduce you to a little backstory:
 
 My name is Kate Larkins, and I am the project manager for the Dev Catalyst competition. A student named Savanna Banks paired up with me to created the 'Local Ladies'. That was our name until another classmate named Sam Murphey joined. Our team has grown a lot since the first few days of Coding. We had to work hard to communicate with each other and learn each others' talents. We learned that Savanna loved organization and structure, Sam liked to work with filler content, and I liked the design aspect. 
 
-We got straight to work searching for a client. We found a couple, but condensed in down to just one that we liked the most and thought had the most potential. We worked for about two weeks on the project. After we had completed the framework for our client, we realized we did not have enough information to fit the requirements to enter the competition. 
+We got straight to work searching for a client. We found a couple, but condensed it down to just one that we liked the most and thought had the most potential. We worked for about two weeks on the project. After we had completed the framework for our client, we realized we did not have enough information to fit the requirements to enter the competition. 
 
 So, we got back to work again, and found a new client at the Bank of England Mortgage in Jackson, Tennessee.
 
