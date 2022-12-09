@@ -1,63 +1,50 @@
-body {
-    background-color: #EEEEEE;
-}
-
-#logo {
-    height: 70px;
-}
-
+/* Navbar CSS */
 .nav-item {
     font-size: 20px;
     padding: 7px;
     font-family: 'Oswald', sans-serif;
 }
+.navbar ul {
+  list-style: none;
+}
 
+/* End Navbar CSS */
+
+/* H tages */
 h4 { 
   font-family: 'Oswald', sans-serif;
-}
-
-
-#house{
-    padding: 0%;
-}
-
-.card {
-    background-color: white;
-    color: black;
-}
-
-.card-title {
-  font-size: 50px;
-  text-align:center;
-  font-family: 'Oswald', sans-serif;
-}
-.card-text {
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  text-align: center;
-}
-.lowertext {
-    position:relative;
-    padding-top:300px;
-    padding-right:500px;
-    padding-left:500px;
-}
-
-
-.btn:hover {
-    background-color:#242C64;
 }
 
 h5 {
   font-family: 'Oswald', sans-serif;
 }
 
-.wrap {
-  height: 100%;
+h1, h2{
+  color: #242C64;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* End H tags */
+
+/* Buttons */
+.cardhouse-img-top {
+  width: 1200px;
+  height: 500px;
+}
+
+.cardhouse {
   display: flex;
+  justify-content:center;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+}
+.cardhouse-title {
+  font-weight: bold;
+}
+
+.btn:hover {
+    background-color:#242C64;
 }
 
 .buttonone {
@@ -120,91 +107,7 @@ h5 {
   animation: none;
   display: none;
 }
-
-@keyframes ring {
-0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-}
-100% {
-    width: 170px;
-    height: 170px;
-}
-}
-
-  
-  .bi-house-door-fill {
-    height: 130px;
-    width: 110px;
-    color:white;
-  }
-  .bi-shop {
-    height: 130px;
-    width: 110px;
-    color:white;
-  }
-  .bi-person-check-fill {
-    height: 130px;
-    width: 110px;
-    color:white;
-  }
-
-  .dot {
-    height: 150px;
-    width: 150px;
-    background-color: #242C64;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-.dottwo {
-  height: 150px;
-  width: 150px;
-  background-color: #242C64;
-  border-radius: 50%;
-  display: inline-block;
-}
-.dottwo:hover {
-  background-color: #2487ce;
-}
-
-.animated {
-  background-image: url(/css/images/logo.png);
-  background-repeat: no-repeat;
-  background-position: left top;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-@-webkit-keyframes rollIn {
-  0% {
-     opacity: 0;
-     -webkit-transform: translateX(-100%) rotate(-120deg);
-  }
-  100% {
-     opacity: 1;
-     -webkit-transform: translateX(0px) rotate(0deg);
-  }
-}
-@keyframes rollIn {
-  0% {
-     opacity: 0;
-     transform: translateX(-100%) rotate(-120deg);
-  }
-  100% {
-     opacity: 1;
-     transform: translateX(0px) rotate(0deg);
-  }  
-}
-.rollIn {
-  -webkit-animation-name: rollIn;
-  animation-name: rollIn;
-}
-
-
- .buttontwo {
+.buttontwo {
    width: 390px;
    height: 70px;
    font-weight: bold;
@@ -243,7 +146,260 @@ h5 {
  .btn-primary {
   font-family: 'Oswald', sans-serif;
  }
+.buttonthree {
+  background-color:white;
+  color:#242C64;
+  height: 60px;
+  width: 200px;
+}
 
+/* End Buttons */
+
+/* Carousel  */
+.carouseltag {
+  color: white;
+}
+.carousel-item {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* End Carousel */
+
+/* Cards */
+.card {
+    background-color: white;
+    color: black;
+}
+
+.card-title {
+  font-size: 50px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+.card-text {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+#cardindex {
+  font-family:'Oswald', sans-serif; 
+  font-size:55px;
+}
+
+#cardinfo {
+  font-size:30px; 
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+/* End Cards */
+
+/* Footer */
+footer ul {
+  list-style: none;
+}
+.footer {
+  background-color:white;
+}
+
+/* End Footer */
+
+/* Extra */
+body {
+    background-color: #EEEEEE;
+}
+
+#logo {
+    height: 70px;
+}
+
+#house{
+    padding: 0%;
+  }
+
+.lowertext {
+    position:relative;
+    padding-top:300px;
+    padding-right:500px;
+    padding-left:500px;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .bi-house-door-fill {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+  .bi-shop {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+  .bi-person-check-fill {
+    height: 130px;
+    width: 110px;
+    color:white;
+  }
+
+#header {
+  padding: 60px;
+  text-align: center;
+  background-color: #242C64;
+  font-size: 45px;
+  color:white;
+  font-family:'Oswald', sans-serif; 
+}
+
+.contactustoday {
+  font-weight: 700;
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/body.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ourpage {
+  background-color: #fff;
+}
+
+
+.bi-facebook {
+  fill: #242C64;
+}
+
+
+.linkcolorwhite a {
+  color: white;
+  text-decoration: none;
+}
+
+.linkcolorwhite a:hover { 
+   color: #2487ce;
+}
+
+.textcolorblack a {
+  color: black;
+  text-decoration: none;
+}
+
+.textcolorblack a:hover { 
+  color: #2487ce;
+}
+
+
+
+#team {
+  color: black;
+}
+.team {
+  color: black
+}
+
+
+.content-box {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+/* End Extra */
+
+
+/* animations */
+@keyframes ring {
+0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+100% {
+    width: 170px;
+    height: 170px;
+}
+}
+
+.animated {
+  background-image: url(/css/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes rollIn {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0px) rotate(0deg);
+  }
+}
+@keyframes rollIn {
+  0% {
+     opacity: 0;
+     transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0px) rotate(0deg);
+  }  
+}
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+  /* end animations */
+
+/* dots */
+  .dot {
+    height: 150px;
+    width: 150px;
+    background-color: #242C64;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dottwo {
+  height: 150px;
+  width: 150px;
+  background-color: #242C64;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dottwo:hover {
+  background-color: #2487ce;
+}
+/* end dots */
+
+
+
+ 
+/* icon boxes */
   .icon-box {
     padding-left: 50px;
     padding-right: 50px;
@@ -291,29 +447,7 @@ h5 {
     transform: scale(1.08);
     color: #2487ce;
   }
-  
-
-.cardhouse-img-top {
-  width: 1200px;
-  height: 500px;
-}
-
-.cardhouse {
-  display: flex;
-  justify-content:center;
-  flex-direction: row;
-  align-items: center;
-}
-.cardhouse-title {
-  font-weight: bold;
-}
-
-.buttonthree {
-  background-color:white;
-  color:#242C64;
-  height: 60px;
-  width: 200px;
-}
+  /* end icon boxes */
 
 .bi-people {
   height: 130px;
@@ -329,110 +463,3 @@ h5 {
   width: 110px;
 }
 
-body, html {
-  height: 100%;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img/body.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.ourpage {
-  background-color: #fff;
-}
-.footer {
-  background-color:white;
-}
-
-.bi-facebook {
-  fill: #242C64;
-}
-
-
-.linkcolorwhite a {
-  color: white;
-  text-decoration: none;
-}
-
-.linkcolorwhite a:hover { 
-   color: #2487ce;
-}
-
-.textcolorblack a {
-  color: black;
-  text-decoration: none;
-}
-
-.textcolorblack a:hover { 
-  color: #2487ce;
-}
-
-
-
-#team {
-  color: black;
-}
-.team {
-  color: black
-}
-
-h1, h2{
-  color: #242C64;
-  font-weight: bold;
-  font-family: 'Oswald', sans-serif;
-}
-.content-box {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 17px;
-}
-footer ul {
-  list-style: none;
-}
-.navbar ul {
-  list-style: none;
-}
-.carousel-item {
-  font-family: 'Oswald', sans-serif;
-}
-
-#cardindex {
-  font-family:'Oswald', sans-serif; 
-  font-size:55px;
-}
-
-#cardinfo {
-  font-size:30px; 
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 100px;
-  padding-right:100px;
-}
-.carouseltag {
-  color: white;
-}
-
-#header {
-  padding: 60px;
-  text-align: center;
-  background-color: #242C64;
-  font-size: 45px;
-  color:white;
-  font-family:'Oswald', sans-serif; 
-}
-
-.contactustoday {
-  font-weight: 700;
-}
