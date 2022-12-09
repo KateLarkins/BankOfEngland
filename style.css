@@ -75,7 +75,6 @@ h5 {
   box-shadow: 12px 12px 24px #242C64;
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
-  outline: none;
   position: relative;
   padding: 10px;
   z-index: 2;
@@ -165,8 +164,6 @@ h5 {
   background-color: #242C64;
   border-radius: 50%;
   display: inline-block;
-  padding-top:95px;
-  margin-bottom:60px;
 }
 .dottwo:hover {
   background-color: #2487ce;
@@ -176,8 +173,6 @@ h5 {
   background-image: url(/css/images/logo.png);
   background-repeat: no-repeat;
   background-position: left top;
-  padding-top:95px;
-  margin-bottom:60px;
   -webkit-animation-duration: 6s;
   animation-duration: 6s;
   -webkit-animation-fill-mode: both;
@@ -245,6 +240,9 @@ h5 {
    transform: scale(0.9);
  }
 
+ .btn-primary {
+  font-family: 'Oswald', sans-serif;
+ }
 
   .icon-box {
     padding-left: 50px;
@@ -390,6 +388,7 @@ body, html {
 h1, h2{
   color: #242C64;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 .content-box {
   width: 100%;
@@ -423,4 +422,17 @@ footer ul {
 }
 .carouseltag {
   color: white;
+}
+
+#header {
+  padding: 60px;
+  text-align: center;
+  background-color: #242C64;
+  font-size: 45px;
+  color:white;
+  font-family:'Oswald', sans-serif; 
+}
+
+.contactustoday {
+  font-weight: 700;
 }
