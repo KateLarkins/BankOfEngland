@@ -373,6 +373,24 @@ body, html {
   animation-name: rollIn;
 }
 
+.biopic {
+  animation-duration: 4.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+0% {
+  margin-left: 0%;
+}
+50% {
+  margin-left: 20px;
+}
+100% {
+  margin-left: 0%;
+}
+}
+
+
   /* end animations */
 
 /* dots */
@@ -461,4 +479,7 @@ body, html {
 .bi-house-door {
   height: 130px;
   width: 110px;
+}
+#bio{
+  background-color: white;
 }
