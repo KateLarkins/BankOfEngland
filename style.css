@@ -280,12 +280,6 @@ body, html {
   background-color: #fff;
 }
 
-
-.bi-facebook {
-  fill: #242C64;
-}
-
-
 .linkcolorwhite a {
   color: white;
   text-decoration: none;
@@ -373,6 +367,39 @@ body, html {
   animation-name: rollIn;
 }
 
+
+
+.dotthree {
+  animation-duration: 8s;
+  animation-name: slideInRight;
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(0%, 0, 100);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 100);
+    transform: translate3d(0, 0, 100);
+  }
+}
+
+
+@keyframes slidein {
+0% {
+margin-left: 0%;
+}
+50% {
+margin-left: 300px;
+}
+100% {
+margin-left: 0%;
+}
+}
+
 .biopic {
   animation-duration: 4.5s;
   animation-name: slidein;
@@ -410,6 +437,17 @@ body, html {
   display: inline-block;
 }
 .dottwo:hover {
+  background-color: #2487ce;
+}
+
+.dotthree {
+  height: 150px;
+  width: 150px;
+  background-color: #242C64;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotthree:hover {
   background-color: #2487ce;
 }
 /* end dots */
@@ -473,13 +511,35 @@ body, html {
 }
 .bi-pencil-square {
   height: 130px;
-  width: 110px;
+  width: 100px;
 }
 
+.bi-people-two {
+  height: 130px;
+  width: 110px;
+  color: #fff;
+}
+.bi-pencil-square-two {
+  height: 130px;
+  width: 100px;
+  color:white;
+}
+
+.bi-translate {
+  height: 140px;
+  width: 90px;
+  color: #fff;
+}
+.bi-telephone-two {
+  height: 140px;
+  width: 90px;
+  color: #fff;
+}
 .bi-house-door {
   height: 130px;
   width: 110px;
-}
+
+
 #bio{
   background-color: white;
 }
