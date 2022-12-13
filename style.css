@@ -36,9 +36,11 @@ h1, h2{
 .cardhouse {
   display: flex;
   justify-content:center;
+  /* flex-direction makes it responsive, but then the image stretches */
   flex-direction: row;
   align-items: center;
 }
+
 .cardhouse-title {
   font-weight: bold;
 }
